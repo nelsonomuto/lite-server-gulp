@@ -6,7 +6,6 @@ var browserSync = require('browser-sync');
 var notify = require('gulp-notify');
 var less = require('gulp-less');
 var autoprefix = require('gulp-autoprefixer');
-var minifyCSS = require('gulp-minify-css');
 var exec = require('child_process').exec;
  
 gulp.task('lite-server', function (cb) {
@@ -18,7 +17,7 @@ gulp.task('lite-server', function (cb) {
 });
 
 gulp.task('css', function () {
-    return gulp.src(['./less/main.less'])
+    return gulp.src(['./less/style.less'])
         .pipe(less({ style: 'compressed' }).on('error', gutil.log))
         .pipe(autoprefix())
         .pipe(gulp.dest('./'))
