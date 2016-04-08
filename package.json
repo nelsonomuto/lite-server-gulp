@@ -1,0 +1,33 @@
+{
+  "name": "advancedfilter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "dependencies": {
+    "angular": "^1.5.3",
+    "angular-animate": "^1.5.3",
+    "angular-aria": "^1.5.3",
+    "angular-material": "^1.0.7",
+    "angular-messages": "^1.5.3",
+    "angular-underscore": "0.0.3",
+    "material-design-icons": "^2.2.3",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "lite-server": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-less": "^3.0.5",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-replace": "^0.5.4",
+    "gulp-util": "^3.0.7",
+    "less": "^2.6.0"
+  },
+  "scripts": {
+    "lite": "lite-server –port 10001",
+    "start": "npm run lite"
+  },
+  "author": "",
+  "license": "ISC"
+}
